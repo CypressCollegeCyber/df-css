@@ -1,3 +1,4 @@
-#FormPage input[type=text], #FormPage textarea {
+.form-border-bottom {
   border:0;
+  border-bottom:1px solid #52585b;
 }
