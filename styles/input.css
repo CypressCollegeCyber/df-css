@@ -1,4 +1,11 @@
-.form-border-bottom {
+.form-border-bottom, #FormPage input[type=text], #FormPage textarea, #FormPage input[type=text]:read-only, #FormPage textarea:read-only {
   border:0;
   border-bottom:1px solid #52585b;
+}
+
+@media print {
+  .form-border-bottom, #FormPage input[type=text], #FormPage textarea, #FormPage input[type=text]:read-only, #FormPage textarea:read-only {
+    border:0;
+    border-bottom:1px solid #52585b;
+  }
 }
